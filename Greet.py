@@ -1,4 +1,14 @@
-fname = str(input ( 'Enter you name firstname :'))
-lname = str(input( "Enter your last name "))
+#include <iostream>
+using namespace std;
+int main()
+{
+    string fname;
+    string sname;
+    cout << "Enter the first name\n";
+    cin >> fname;
+    cout << "Enter the second name\n";
+    cin >> sname;
+    cout << "The name of the user is " << fname << " " << sname << endl;
 
-print(f'Good morning {fname} {lname}')
+    return 0;
+}
